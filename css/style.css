@@ -3,15 +3,13 @@
 /*=========================
  Common CSS 
 ===========================*/
-
-*,
-*::before,
-*::after {
+*{
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  width: 100%;
   font-family: "Ubuntu Mono", monospace;
   color: #666666;
   font-size: 16px;
@@ -32,25 +30,25 @@ img {
 Header Top CSS 
 ===========================*/
 
-.header-top-area {
+.header__top__area{
   background: #ba2e1f;
   padding: 20px;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
 }
 
-.top-menu {
-  flex-basis: 78%;
+.top__mini__menu {
+  flex-grow: 1;
 }
 
-.top-menu ul li {
+.top__mini__menu ul li {
+  list-style: none;
   display: inline-block;
   margin-right: 10px;
   position: relative;
 }
 
-.top-menu ul li::after {
+.top__mini__menu ul li::after {
   content: "";
   position: absolute;
   background: #ffffff;
@@ -60,39 +58,39 @@ Header Top CSS
   right: -10px;
 }
 
-.top-menu ul li:last-child::after {
+.top__mini__menu ul li:last-child::after {
   display: none;
 }
 
-.top-menu ul li a {
+.top__mini__menu ul li a {
   text-decoration: none;
   color: #ffffff;
   display: block;
   font-size: 14px;
 }
 
-.search-area {
+.search__area {
   width: 100%;
   max-width: 210px;
 }
 
-.search-area form {
+.search__area form {
   background: #ffffff;
   border-radius: 25px;
   padding: 1%;
 }
 
-.search-area input {
+.search__area input {
   width: 83%;
   border: none;
   outline: none;
   background: transparent;
   font-weight: bold;
   letter-spacing: 1px;
-  padding-left: 5px;
+  padding-left: 10px;
 }
 
-.search-area button {
+.search__area button {
   width: 25px;
   height: 25px;
   border-radius: 50%;
@@ -103,6 +101,6 @@ Header Top CSS
   cursor: pointer;
 }
 
-.search-area button i {
+.search__area button i {
   color: #ffffff;
 }
