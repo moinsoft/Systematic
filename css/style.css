@@ -128,6 +128,7 @@ Main Header Area
 
 .social__area ul li a{
   display: block;
+  text-decoration: none;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -140,6 +141,26 @@ Main Header Area
 }
 
 .social__area ul li a:hover{
-  background: #ee802f;
   transform: rotate(360deg);
 }
+
+.social__area ul li a:hover.linkedin{
+  background: #3A83D7;
+}
+
+.social__area ul li a:hover.twitter{
+  background: #00A8FE;
+}
+
+.social__area ul li a:hover.pinterest{
+  background: #AD080C;
+}
+
+.social__area ul li a:hover.google__plus{
+  background: #DC4B3E;
+}
+
+.social__area ul li a:hover.rss{
+  background: #F57304;
+}
+
