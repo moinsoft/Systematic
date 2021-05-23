@@ -439,7 +439,7 @@ Banner Area
 
 
 /*=========================
-Work Area
+Work Area About Section
 ===========================*/
 
 .work__area{
@@ -473,9 +473,9 @@ Work Area
   margin-bottom: 20px;
 }
 
-
-
-.service__area{}
+/*=========================
+Service Section
+===========================*/
 
 .single__service{
   justify-content: space-between;
@@ -495,5 +495,37 @@ Work Area
   margin-top: 5px;
 }
 
+/*=========================
+Testimonial Section
+===========================*/
 
-.testimonial__area{}
+
+.single__testimonial{
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.single__testimonial h3 {
+  position: relative;
+  padding: 25px 0 25px 70px;
+}
+
+.single__testimonial h3::before{
+  content: "\f10d";
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  color: #d4d4d4;
+  font-weight: bold;
+  font-size: 60px;
+  left: 0;
+  top: 0;
+}
+
+.single__testimonial span{
+  font-weight: normal;
+}
+
+.single__testimonial p{
+  line-height: 20px;
+  text-align: justify;
+}
