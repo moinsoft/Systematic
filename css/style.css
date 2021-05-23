@@ -41,7 +41,7 @@ img {
 .read__more__link{
   text-decoration: none;
   color: red;
-  font-size: 19px;
+  font-size: 18px;
 }
 
 .flex{
@@ -479,6 +479,7 @@ Work Area
 
 .single__service{
   justify-content: space-between;
+  margin-bottom: 40px;
 }
 
 .service__img{
@@ -487,6 +488,11 @@ Work Area
 
 .service__text{
   width: 75%;
+}
+
+.service__text p{
+  font-size: 13px;
+  margin-top: 5px;
 }
 
 
