@@ -34,6 +34,31 @@ img {
   text-align: right;
 }
 
+.float__right{
+  float: right;
+}
+
+.btn{
+  text-decoration: none;
+  font-weight: bold;
+  background: #ba2e1f;
+  display: inline-block;
+  font-size: 20px;
+  color: #e9e8e3;
+  padding: 20px 30px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover{
+  color: #000000;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+
 /*=========================
 Header Top CSS 
 ===========================*/
@@ -371,19 +396,36 @@ Slider Area
   margin: 30px 0;
 }
 
-.slider__text a{
-  text-decoration: none;
-  font-weight: bold;
-  background: #ba2e1f;
-  display: inline-block;
-  font-size: 20px;
-  color: #e9e8e3;
-  padding: 20px 30px;
-  border-radius: 30px;
-  transition: all 0.3s ease;
+
+
+/*=========================
+Banner Area
+===========================*/
+
+.banner__area{
+  padding: 0 20px;
+  
 }
 
-.slider__text a:hover{
+.banner{
+  justify-content: space-between;
+}
+
+.banner__img{
+  width: 40%;
+}
+
+.banner__content{
+  width: 56%;
+}
+
+.banner__content h1{
   color: #000000;
+  font-size: 90px;
+  margin-bottom: 15px;
 }
-
+.banner__content p{
+  font-size: 19px;
+  color: #666666;
+  margin-bottom: 15px;
+}
