@@ -623,6 +623,14 @@ Footer Area
   padding: 10px 0;
   box-shadow: 0 0 2px 1px gray;
   color: red;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.single__footer button:hover{
+  background: #ba2e1f;
+  color: #ffffff;
 }
 
 .single__blog{
