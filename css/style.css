@@ -629,3 +629,45 @@ Footer Area
   overflow: hidden;
   margin-bottom: 15px;
 }
+
+
+
+/*=========================
+CopyRight Area 
+===========================*/
+
+.copyright__area{
+  background: #f2f2f2;
+  padding: 40px 20px;
+  align-items: center;
+}
+
+.copyright{
+  flex-grow: 1;
+}
+
+.copyright a{
+  text-decoration: none;
+  color: #ba2e1f;
+  font-weight: bold;
+}
+
+.jump__to__top a{
+  font-size: 30px;
+  color: #ffffff;
+  text-decoration: none;
+  background:#282A36;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  box-shadow: 0 0 1px 1.5px #ba2e1f;
+  transition: all .3s linear;
+}
+
+.jump__to__top a:hover{
+  color: red;
+  box-shadow: 0 0 3px 2px #ba2e1f;
+}
